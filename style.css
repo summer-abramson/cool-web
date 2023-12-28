@@ -1,7 +1,118 @@
 body{
     display: flex;
     flex-direction: column;
+    
+    font: "roboto";
+    
+
 }
 .header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+ 
+}
 
+
+ul{
+    display:flex;
+    
+}
+
+li{
+    list-style-type: none;
+    padding:5px;
+
+}
+
+.main{
+    display: flex;
+    font: "roboto";
+    padding:10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.leftmain{
+    justify-content: flex-start;
+    padding:10px;
+    
+}
+.rightmain{
+    justify-content: flex-end;
+    padding:10px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+}
+
+.SRI{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding:30px ;
+    background-color: #E5E7EB;
+    justify-content: center;
+    
+}
+
+.author{
+    display: flex;
+    justify-content: right;
+    margin-right:100px
+}
+
+.call{
+    margin: 40px;
+   display: flex; 
+   background-color: #3882F6;
+   justify-content: space-between;
+   border-radius: 10px;
+}
+
+.leftcall{
+    display:flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    margin-left: 30px;
+    justify-content: center;
+    
+}
+.rightcall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
